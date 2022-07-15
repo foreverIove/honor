@@ -1,0 +1,971 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+@media screen and (min-width:1280px) {
+    .container1 {
+        width: 100%;
+      
+    }
+}
+.active{
+    background-color: rgb(50, 50, 57) !important;
+    color: orange!important;
+}
+// 导航---按钮
+.img5{
+    position: absolute;
+    top:22px;
+    right:1px;
+    width: 50px;
+ 
+    height: 21px;
+    background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)
+    ;background-repeat: no-repeat;
+    background-position-x: -250px;
+    background-position-y: 2px;
+    a{
+        display: block;
+        padding-left: 20px !important;
+    }
+    
+    // margin:20px 5px 0 10px;
+}
+.header-top{
+    height: 42px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99999999999;
+    .container{
+        background-color: #fff;
+        width: 1280px;
+        padding-left: 170px;
+        padding-right: 130px;
+        img{
+            margin-left: 20px;
+        }
+        .right-text{
+            div{
+                float: left;
+                width: 20px;
+                height: 40px;
+                // background-color: red;
+                
+            }
+            .sprite0{
+                width: 20px;
+                background-image: url(../image/title_sprite.png);
+                background-position: -35px;
+                margin-right: 5px;
+            }
+            float: right;
+            a{
+                display: block;
+                float: left;
+                line-height: 42px;
+                text-decoration: none;
+                color: #464646;
+                font-size: 14px;
+                
+                &:hover{
+                    color: orange;
+                }
+                margin-right: 20px;
+            }
+            .sprite{ 
+                float: right;
+                background-image: url(../image/title_sprite.png)
+                ;
+                background-repeat: no-repeat;
+                transform: rotate(90deg);
+                background-position-y: 2px;
+                background-position-x: -3px;
+                opacity: 0.2;
+                
+            }
+        }
+    }
+
+}
+  li{
+      list-style: none;
+  }
+
+.container{
+   width: 100%;
+    padding: 0;
+    // position: relative;
+  
+}
+// 导航栏
+.header-nav{
+    z-index: 999999999999999;
+    position: relative;
+    
+//    margin-top:-10px;
+top: 42px;
+   min-width: 1280px;
+    height: 84px;
+    background-color:rgba(0,0,0,0.85);
+    // z-index: 999999;
+    border-bottom: 2px solid #000;
+    
+    .header-inner{
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 1280px;
+        // width: 1300px;
+        height: 84px;
+        margin: 0 auto;
+        margin-bottom: 0;
+        margin-top: 0!important;
+        position: absolute;
+        // position: relative;
+        // background-color:rgba(0,0,0,0.85);
+       
+        ;
+       .last-li{
+           float: right;
+           width: 210px;
+           height: 100%;
+           
+        .logn{
+            margin-left: 28px;
+            margin-right: 10px;
+            width: 44px;
+            width: 44px;
+            img{
+                width: 100%;
+            }
+            border: 1px solid orange;
+            border-radius: 50%;
+            margin-top: 12px;
+            float: left;
+            
+          }
+          p{    padding-top: 17px;
+            // padding-left: 5px;
+              margin: 0;
+              color: #fff;
+              font-size:16px;
+              
+          }
+          span{
+              color: #fff;
+              font-size:14px;
+              opacity: 0.4;
+          }
+       }
+        .one{
+           float: left;
+            margin-top: 13px;
+            a{
+                display: block;
+                float: left;
+            }
+        }
+        .main-nav{
+            
+            padding-left: 230px;
+            li a:hover{
+                color: yellow;
+                background-image:linear-gradient(transparent, rgb(63,48,30));
+                border-bottom: 5px solid rgb(243, 194, 88);
+                
+            }
+          
+            li{
+               
+                margin: 0!important;padding: 0!important;
+                height: 85px!important;
+                list-style: none;
+                width: 115px;
+                float: left;
+                a{
+                    color: #fff;
+                    width: 110px;
+                    height: 85px;
+                    display: block;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #c9c9dd;
+                    font-size: 18px;
+                    text-decoration: none;
+                    // padding-top: 15px;
+                    // padding: 20px 0 0 ;
+                    padding-top: 20px;
+                    box-sizing: border-box;
+
+                    em{
+                        display: block;
+                        color: #858792;
+                        font-size: 12px;
+                        height: 20px;
+                        // padding: 5px 0 0;
+                    }
+                    
+                }
+            }
+       }
+       
+       
+    }
+    // 隐藏栏
+    .JsuNav{
+        z-index: 9999999999999999999;
+        width: 100%;
+        height:0;
+        overflow: hidden;
+        background-color:rgba(0,0,0,0.85);
+        position: absolute;
+        top: 84px;
+        // top:84px;
+        & a:hover{
+            color: orange;
+        }
+    
+       
+    }
+    .sub-nav-inner{
+        width: 890px;
+    height: 240px;
+    margin: 0 auto;
+    // background-color: red;
+    padding: 0;
+    padding-left: 25px;
+    padding-top: 20px;
+    li{
+        float: left;
+        list-style: none;
+        white-space: nowarp;
+        width: 110px;
+        height: 182px;
+        text-align: center;
+        padding: 2px 2.5px 0;
+        &:hover{
+            // color: rgb(243, 194, 88);
+            color: red;
+        }
+        a{
+            margin: 10px;
+            display: block;
+            color: #fff;
+        }
+    }
+    }
+}
+// 中间部分
+.wrapper{
+    .kv-bg-container{
+    // overflow: hidden;
+  
+    .wrapper-img{
+        background-image: url(https://ossweb-img.qq.com/upload/webplat/info/yxzj/20220707/33657836219442.png)
+       ;
+     a{
+         display: block;
+         height: 100%;
+     }
+       min-width: 1280px;
+       width: 100%;
+      height: 1300px;
+        background-repeat: no-repeat;
+        background-size: 125% auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position-x: -200px;
+        background-position-y: 45px;
+    
+    }
+}
+    .main{
+        width: 1200px;
+        height: 2800px;
+        // background-color: red;
+        margin: 0 auto;
+        position: relative;
+
+        padding-top: 460px;
+        .min-top{
+            position: relative;
+            height: 342px;
+            width: 100%;
+            // background-color: red;
+            background-image: url(../image/rotate_bg.png);
+            background-repeat: no-repeat;
+            // 左侧轮播图
+                .left-box{
+                    float: left;
+                    height: 342px;
+                    width: 604px;
+                    // position: relative;
+                    .all{
+                        height: 342px;  
+                        position: relative;
+                    }
+                    
+                    // border: 1px solid red;
+                    
+                    .li-box{
+                        bottom: -9px;
+                        line-height: 42px;
+                        background-color: #000;
+                       left: 180px;
+                    
+                        width: 100%;
+                        p{
+                            float: left;
+                            margin: 0!important;
+                            padding: 0!important;
+                            width: 120.8px;
+                            text-indent: 0;
+                            height: 44px;
+                            border-radius: 0;
+                            // color: #fff;
+                            color: #c9c9c9;
+                            
+                        }
+                    }
+                
+            }
+            // 中间内容区
+            .content-box{
+                width: 325px;
+                height: 100%;
+                overflow: auto;
+                // float: left;
+                // background-color: red;
+                // position: relative;
+                box-sizing: border-box;
+                margin-left: 621px;
+                // margin-top: 10px;
+                .tabBar1{
+                    height: 48px;
+                    border-bottom: 1px solid black;
+                    padding-left: 10px;
+                   
+                    li{
+                        float: left;
+                        width: 16%;
+                        height: 100%;
+                        text-align: center;
+                        line-height: 48px;
+                        color: #c9c9c9;
+                        &:hover{
+                            border-bottom: 4px solid orange;
+                            color: orange;
+                        }
+                    }
+                }
+                
+                .longbox{
+                    width: 100%;
+                    // display: none;
+                    // background-color: blue;
+                    color: #fff;
+                    h3{
+                        font-size:18px;
+                        background-color: rgb(65, 64, 70);
+                        height:36px;
+                        line-height:36px;
+                        padding-left: 15px;
+                        color:rgb(243,194,88)
+                    }
+                    ul{
+                        li{
+                            height: 30px;
+                            p{
+                                float:left;
+                                width: 35px;
+                                height:20px;
+                                border:1px solid red;
+                                border-radius: 2px;
+                                font-size: 12px;
+                                color:red;
+                                margin-right: 8px;
+                                text-align: center;
+                            }
+                            color:rgb(171,185,188);
+                            span{
+                                display: block;
+                                float: right;
+                            }
+                        }
+                    }
+
+
+                   
+                    
+
+                }
+              
+                
+            }
+            // 右侧下载游戏
+            .game{
+                position: absolute;
+                top: 0;
+                right: 0;
+                // border: 2px solid blue;
+                
+                width:236px;
+                // height: 128px;
+                // background-color: blue;
+               a{
+                float: left;
+                width: 100%;
+                
+                display: block;
+                background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png);
+                background-repeat: no-repeat;
+               } 
+                .a1{
+                    height: 128px;
+                    background-position-y:-218px;
+                    background-position-x:-1px;
+
+                
+                }
+                .a2{
+                    height: 107px;
+                    background-position-y:-350px;
+                   
+                    // background-size: 101%;
+                    // overflow: hidden;
+                }
+                .a3{
+                    height: 108px;
+                    background-position-x:-1px;
+                    background-position-y:-462px;
+                }
+            }  
+            
+        }
+        // 王者营地
+        .img1{
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            li{
+                
+                width: 291px;
+                height: 134px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(https://ossweb-img.qq.com/upload/webplat/info/yxzj/20210113/239381533097800.png);
+                &:hover{
+                    background-size: 110%;
+                  
+
+                }
+            }
+          
+        }
+        // 内容中心
+        .center-text{
+            position: relative;
+            float: left;
+            width: 872px;
+            height:528px;
+            // border: 1px solid red ;
+            .img2{
+                width: 22px;
+                height: 22px;
+                background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)
+                ;background-repeat: no-repeat;
+                background-position-x: 0px;
+                background-position-y: -110px;
+                // border: 1px solid red;
+                float: left;
+                margin-top: 0px;
+                margin-right: 13px;
+            }
+           h3{
+            //    float: left;
+               font-weight: bold;
+               color: #000;
+               opacity: 0.9;
+           }
+        
+        //    h3下的导航栏
+            .text1{
+                .active2{
+                    border-bottom: 2px solid orange;
+                }
+                margin: 0;padding: 0;
+                display: flex;
+                // justify-content: space-around;
+                background-color:rgb(236, 229, 229);
+                li{
+                    flex-grow: 1;
+                    text-align: center;
+                    height: 32px;
+                    // rgb(245, 245, 245)
+                   
+                   color:rgb(129, 125, 125);
+                    line-height: 32px;
+                    &:hover{
+                        color: #000;
+                        border-bottom: 2px solid orange;
+                    }
+
+                }
+                span{
+                    color:rgb(129, 125, 125);line-height: 32px;
+                    font-size: 22px;
+                    opacity: 0.2;
+                }
+            }
+        //display-change显示隐藏
+        .display-change{
+            height:43px;
+            // border: 1px solid red;
+            li{
+                float: left;
+                text-align: center;
+                width: 101px;
+                height: 26px;
+                line-height: 26px;
+                margin-top: 10px;
+                margin-left: 5px;
+                border-radius: 10px;
+                background-color:rgb(236, 229, 229);
+            }
+        } 
+        // 发请求拿数据展示区
+        .show-img{
+            padding: 6px;
+            // display: flex;
+            
+            .col-xs-3{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            li{
+                position: relative;
+                float: left;
+                // width: 209px;
+                height: 200px;
+                // background-color: #bfa;
+                img{
+                    width: 100%;
+                }
+                p{
+                    padding-left: 5px;
+                    height: 22px;
+                    width: 91%;
+                    background-color: #000;
+                    opacity: 0.8;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 22px;
+                    position: absolute;
+                    bottom: 66px;
+                    .date1{
+                        margin-left: 100px;
+                    }
+                }
+                .date2{
+                    display: block;
+                    margin-top: 10px;
+                    // padding-bottom: 10px;
+                }
+                // 遮罩层
+                a{
+                    display  :block;
+                    width:202.5px;
+                    height: 123.25px; 
+                    background-color: #000;
+                    position: absolute;
+                    top:0;
+                    opacity: 0;
+                    color:orange;
+                    text-align: center;
+                    line-height: 68px;
+                    writing-mode:vertical-lr;
+                    text-decoration: none;
+                    div{
+                        width:50px;
+                        height:50px;
+                        background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png);
+                        background-repeat: no-repeat;
+                background-position-x: -190px;
+                background-position-y: -60px;
+                        margin-left: 75px;
+                        margin-top: 40px;
+                       
+                    }
+                }
+            }
+            // 逐浪新生
+            .game{
+                width:862px;
+                height:260px;
+                // border:1px solid red;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left:-5px;
+                ul{
+                    float: left;
+
+                }
+                .KPLimg{
+                    width:211px;
+                    height: 100%
+                    ;
+                    background-image: url(https://ossweb-img.qq.com/upload/webplat/info/yxzj/20220224/62750703048076.jpg);
+                }
+                .KPL-list{
+                    width: 630px;
+                    height: 100%;
+                    // background-color: red;;
+                    float: right;
+                    li{
+                        width:100%;
+                        height:auto;
+                        margin-bottom: 9px;
+                        clear: both;
+                        .KPL{
+                            width: 52px;
+                            height: 23px;
+                            background-color: rgb(212, 209, 209);
+                            float: left;
+                            border-radius: 10px;margin-right: 10px;
+                            text-align: center;
+                            line-height: 23px;
+                            opacity: 0.7;
+                            font-size: 12px;
+                            
+                        }
+                        .date22{
+                            float: right;
+                            color: rgb(184, 181, 181);
+                            font-size: 12px;
+                        }
+                        span{
+                            color: rgb(99, 97, 97);
+                        }
+                            h3{
+                                font-weight: normal;
+                                margin: 0;
+                                margin-bottom: 5px;
+                            }
+                        
+                    }
+                }
+            }
+        }
+        }
+        // 英雄/皮肤
+        .honner{
+            width:285px;
+            height:528px;
+            position: relative;
+            // border: 1px solid red;
+            float: right;
+            .img3{
+                width: 30px;
+                height: 30px;
+                background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)
+                ;background-repeat: no-repeat;
+                background-position-x: 0px;
+                background-position-y: -145px;
+                // border: 1px solid red;
+                float: left;
+                margin:0px 5px 0 10px;
+
+            }
+            h3{
+                //    float: left;
+                   font-weight: bold;
+                   color: #000;
+                   opacity: 0.9;
+                //    float: left;
+               }
+           
+               .text1{
+                   display: block;
+                .active2{
+                    border-bottom: 2px solid orange;
+                }
+                margin: 0;padding: 0;
+                display: flex;
+                // justify-content: space-around;
+                background-color:rgb(236, 229, 229);
+                li{
+                    flex-grow: 1;
+                    text-align: center;
+                    height: 32px;
+                    // rgb(245, 245, 245)
+                   
+                   color:rgb(129, 125, 125);
+                    line-height: 32px;
+                    &:hover{
+                        color: #000;
+                        border-bottom: 2px solid orange;
+                    }
+
+                }
+                span{
+                    color:rgb(129, 125, 125);line-height: 32px;
+                    font-size: 22px;
+                    opacity: 0.2;
+                }
+            }
+           .vs{
+            //    height:200px;
+                overflow: hidden;
+            .pers{
+                //    overflow: hidden;
+                   height:52px;
+                   margin-top: 15px;
+                   border-bottom: 1px solid #ccc;
+               }
+            .person1{
+                float: left;
+                width:50px;
+                height:30px;
+               font-size: 12px;
+               
+                margin-left: 28px;
+                img{
+                    margin-left: 9px;
+                    width:50%;
+                }
+            }
+            span{
+                display: block;
+                float: left;
+                margin-top: 12px;
+            }
+            .person2{
+                float: left;
+                width:34px;
+                height:50px;
+                margin-left: 16px;
+                margin-top:20px;
+                // background-color: red;
+                color:orange;
+                text-align: center;
+            }
+           }
+            .geya{
+                width: 283px;
+                // height:156px;
+                border: 1px solid #ccc;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    margin-bottom: 12px;
+                }
+                p{
+                    margin-left: 15px;
+                }
+                .hero1{
+                    font-size: 18px;
+                    color: rgb(39, 38, 38);
+                    font-weight: bold;
+                    margin-bottom: 0;
+                }
+                .hero2{
+                    font-size: 12px;
+                    opacity: 0.7;
+                }
+            }
+            .row{
+                margin: 0;padding: 0;
+            }
+            .sangqi{
+                
+                // display: flex;
+                .col-xs-3{
+                    margin: 0;padding: 0;
+                }
+                .sq1{
+                    
+                    width:68px;
+                    height: 173px;
+                    margin-top: 15px;
+                    position: relative;
+                    // float: left;
+                    margin-left: 2px;
+                    img{
+                        width: 98%;
+                    }
+                        // justify-content: space-between;
+
+                    a{
+                        display  :block;
+                        width:68px;
+                        height: 170px; 
+                        background-color: #000;
+                        position: absolute;
+                        top:0;
+                        opacity: 0;
+                        color:orange;
+                        text-align: center;
+                        line-height: 68px;
+                        writing-mode:vertical-lr;
+                        text-decoration: none;
+                      
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+// 底部导航
+.footer{
+    height:362px;
+    width:100%;
+    background-image: url(https://game.gtimg.cn/images/yxzj/web201605/top_banner/bg_footer.jpg);
+    // border:1px solid red;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:2500px;
+    min-width: 1270px;
+    background-size: 100% 100%;
+width: 100%;
+    .over{
+        width: 1200px;
+        margin:0 auto;
+        .over-header{
+            width: 100%;
+            height:64px;
+            // border: 1px solid blue;
+            // background-size: 60% 500%;
+            // https://game.gtimg.cn/images/yxzj/web201605/main/spr.png
+            background-image: url(https://game.gtimg.cn/images/yxzj/web201605/main/spr.png);
+            background-repeat: no-repeat;
+          
+        }
+        hr{
+            border-top: 2px solid rgb(202, 200, 200);
+        }
+        .word{
+            .word-left{
+                width:508px;
+                float: left;
+                color:#616060;
+                font-size: 12px;
+                em{
+                    margin-right: 10px;
+                }
+            }
+            .word-right{
+                width:650px;
+                float: right;
+                color:#4e4e4e;
+                font-size: 12px;
+                a{
+                    color:#4e4e4e;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+// 右侧固定栏
+.r_nav{
+    
+    width: 254px;
+    height: 494px;
+    // background-color: red;
+    position: fixed;
+    top: 100px;
+    right: -27px;
+    
+   
+    .r_dj{
+        width: 165px;
+        height: 145px;
+        background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_dj.png);
+        padding-top: 30px;
+        padding-left: 15px;
+
+        p{
+            width: 88px;
+            // height: 36px;
+            font-size: 14px;
+            text-indent: 2px;
+            font-weight: bold;
+            // line-height: 18px;
+            color: #62401b;
+            margin: 0;
+            
+        }
+        
+    }
+    .linkme{
+        text-align: center;
+        width: 117px;
+        height: 139px;
+        background-color:rgb(205,132,61)
+        ;margin-left: 60px;
+        img{
+            width: 90%
+            ;margin: 5px;
+            box-sizing: border-box;
+        }
+        b{
+            color: #d0db2f
+            ;
+        }
+    }
+    .flex-down{
+       
+        text-align: center;
+        width: 117px;
+        position: relative;
+        div{
+            // display: none;
+            opacity: 0;
+           width: 114px;
+           height:144px;
+        //    background-color: #000;
+           position: absolute;
+           top: 0;
+           left:-114px;
+        //    https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png
+            background-image: url(https://game.gtimg.cn/images/yxzj/web201706/images/comm/floatwindow/r_all2022.png);
+            background-position-x:-2px ;
+            background-position-y:147px ;
+            img{
+                width:100%;
+                padding: 6px 6px 0 6px;
+
+
+            }
+            p{
+                
+                padding-left: 7px;
+                font-size: 12px;
+                color:#fff;
+                span{
+                    color:orangered;
+                }
+            }
+        }
+       
+        ;margin-left: 60px;
+        li{
+            background-color:rgba(108,107,109);
+            list-style: none;
+            height: 38px;
+            line-height: 38px;
+            color: rgb(248, 230, 230);
+            font-weight: bold;
+            margin-top: 1px;
+            &:hover{
+                background-color: rgb(210,145,68)
+            }
+        }
+
+
+    }
+}

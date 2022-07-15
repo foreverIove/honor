@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="bookmark" href="/favicon.ico"/>
+    <title>王者荣耀官方网站-腾讯游戏</title>
+    <style>
+
+
+
+    </style>
+    <script>
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {//移动终端浏览器版本信息  
+                    trident: u.indexOf('Trident') > -1, //IE内核 
+                    presto: u.indexOf('Presto') > -1, //opera内核 
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核 
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核 
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端 
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端 
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器 
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器 
+                    iPad: u.indexOf('iPad') > -1, //是否iPad   
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部 
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+        //如果是移动端就进行这里
+        if (browser.versions.mobile || browser.versions.ios || browser.versions.android ||
+            browser.versions.iPhone || browser.versions.iPad) {
+            window.location.href = "https://foreveriove.github.io/m-honor/";
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="container">
+            <img src="./image//logo1.png" alt="">
+            <img src="./image/cyhx.jpg" alt="">
+            <div class="right-text">
+                <a href="">成长守护平台<div class="sprite0"></div></a>
+                <a href="">腾讯游戏排行 <div class="sprite"></div></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="container ">
+
+        <!-- 导航栏 -->
+        <div class="header-nav ">
+            <div class="header-inner ">
+
+                <li class="one">
+                    <a href=""><img src="https://game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png" alt="王者荣耀"> </a>
+                </li>
+
+                <ul class="main-nav ">
+
+                    <li>
+                        <a href="">游戏资料 <em>DATA</em> </a>
+                    </li>
+                    <li>
+                        <a href="">内容中心 <em>CONTENTS</em></a>
+                    </li>
+                    <li>
+                        <a href="">赛事中心 <em>MATCH</em></a>
+                    </li>
+                    <li>
+                        <a href="">百态王者 <em>CULTURE</em></a>
+                    </li>
+                    <li>
+                        <a href="">社区互动 <em>COMMUNITY</em></a>
+                    </li>
+                    <li>
+                        <a href="">玩家支持 <em>PLAYER</em></a>
+                    </li>
+                    <li>
+                        <a href="">IP新游 <em>NEW GAMES</em></a>
+                    </li>
+
+
+                </ul>
+                <li class="last-li">
+                    <div class="logn">
+                        <img src="./image/下载.png" alt="">
+                    </div>
+                    <p>欢迎登陆</p>
+                    <span>登录后查看游戏战绩</span>
+                </li>
+                <!--隐藏的悬浮信息  -->
+
+            </div>
+            <div class="JsuNav">
+                <ul class="sub-nav-inner">
+                    <li>
+                        <a href=""> 版本介绍</a>
+                        <a href=""> 游戏介绍</a>
+                        <a href=""> 英雄资料</a>
+                        <a href=""> 爆料站</a>
+                        <a href=""> 世界观体验展</a>
+                        <a href=""> 游戏壁纸</a>
+                    </li>
+                    <li>
+                        <a href=""> 攻略中心</a>
+                        <a href=""> 英雄攻略</a>
+                        <a href=""> 视频中心</a>
+                        <a href=""> 开放素材库</a>
+                        <a href=""> 内容共创平台</a>
+                    </li>
+                    <li>
+                        <a href=""> KPL</a>
+                        <a href=""> 世界冠军杯</a>
+                        <a href=""> 挑战者杯</a>
+                        <a href=""> 全国大赛</a>
+                        <a href=""> 女子公开赛</a>
+                        <a href=""> K甲联赛</a>
+                        <a href=""> 高校联赛</a>
+                        <a href=""> 全民赛</a>
+                        <a href=""> 赛事数据</a>
+                    </li>
+                    <li>
+                        <a href=""> 荣耀·传承</a>
+                        <a href=""> 王者文化站</a>
+                        <a href=""> 万千世界</a>
+                        <a href=""> 新冠殿堂</a>
+                        <a href=""> IP共创计划</a>
+                        <a href=""> 商户特权</a>
+                        <a href=""> 龙翼王者卡</a>
+                    </li>
+                    <li>
+
+                        <a href=""> 创意互动营</a>
+                        <a href=""> 王者营地</a>
+                        <a href=""> 微信圈子</a>
+                        <a href=""> 官方微博</a>
+                        <a href=""> 微信公众号</a>
+                        <a href=""> 手Q订阅号</a>
+                    </li>
+                    <li>
+                        <a href=""> 腾讯游戏防沉迷</a>
+                        <a href=""> 成长守护平台</a>
+                        <a href=""> 对局环境情报站</a>
+                        <a href=""> 客服专区</a>
+                        <a href=""> 礼包兑换</a>
+                        <a href=""> 自助服务</a>
+                    </li>
+                    <li>
+                        <a href=""> 王者荣耀·世界</a>
+                        <a href=""> 代号:破晓</a>
+                        <a href=""> 代号:启程</a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+            <!-- 移动端下载王者 -->
+
+        </div>
+
+        <!-- 后裔-->
+        <div class="wrapper">
+            <div class="kv-bg-container">
+
+                <div class="wrapper-img"><a href=""></a></div>
+
+            </div>
+            <div class="main">
+                <div class="min-top">
+                    <!-- 左侧轮播图 -->
+                    <div class="left-box">
+                        <!-- 轮播图 -->
+                        <div id="carousel-example-generic" class="carousel slide all" data-ride="carousel" data-interval="1500" >
+                            <ol class="carousel-indicators li-box" >
+                                <p data-target="#carousel-example-generic" data-slide-to="0" class="active">全国大赛总冠军</p>
+                                <p data-target="#carousel-example-generic" data-slide-to="1">助力赢好礼</p>
+                                <p data-target="#carousel-example-generic" data-slide-to="2">本周热门打法</p>
+                                <p data-target="#carousel-example-generic" data-slide-to="3">荣耀大话王</p>
+                                <p data-target="#carousel-example-generic" data-slide-to="4">大神教你玩</p>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="https://ossweb-img.qq.com/upload/adw/image/194/20220712/c10063fd441ba30c1eec614920b0f6f0.jpeg" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="https://ossweb-img.qq.com/upload/adw/image/194/20220713/ac3e3a18785b34d4102e026669ee91be.jpeg" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="https://ossweb-img.qq.com/upload/adw/image/194/20220713/7c590bacf9daca3c55ad930478d82651.jpeg" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="	https://ossweb-img.qq.com/upload/adw/image/194/20220628/3b3fd1ee6d26db20e0ba58c1696118a5.jpeg" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="https://ossweb-img.qq.com/upload/adw/image/194/20220626/cebd1008a4d10b9818c0ba3bd4aef948.jpeg" alt="...">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--  -->
+
+                    </div>
+                    <!-- 中间文章 -->
+                    <div class="content-box">
+                        <ul class="tabBar1">
+                            <li id="t1">热门</li>
+                            <li id="t2">新闻</li>
+                            <li id="t3">公告</li>
+                            <li id="t4">活动</li>
+                            <li id="t5">赛事</li>
+                            <li>···</li>
+                        </ul>
+                        <div class="longbox">
+                                <h3>王者荣耀X中国邮政《二十...</h3>
+                                <ul>
+                                   
+                                    <li> <p>热门</p>选英雄台词成为个性表情活动结果... <span>07/06</span></li> 
+                                    <li> <p>热门</p>元歌缘·梦皮肤海报投票活动开启公告 <span>07/06</span></li>
+                                    <li> <p>公告</p>7月6日全服不停机更新公告 <span>07/05</span></li>
+                                    <li> <p>热门</p>王者荣耀官方荣耀团招募公告 <span>07/05</span></li>
+                                    <li> <p>热门</p>狄某有话说| 巡查力度升级，6月峡... <span>07/02</span></li>
+                                    <li> <p>热门</p>第33期大神问答回顾：赛季攻略 火... <span>07/02</span></li>
+                                    <li> <p>公告</p>6月29日全服不停机更新公告 <span>06/28</span></li>
+                                </ul>
+
+                        </div>
+
+                    </div>
+                    <!-- 右侧下载游戏 -->
+                    <div class="game">
+                        <a class="a1">
+
+                        </a>
+                        <a class="a2">
+
+                        </a>
+                        <a class="a3">
+
+                        </a>
+                    </div>
+
+                </div>
+                <!-- 王者营地，荣耀传承 -->
+                <ul class="img1">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!--内容中心  -->
+                <div class="center-text">
+                    <div>
+                        <div class="img2"></div>
+                        <h3>内容中心</h3>
+                        <div class="img5"><a href="">更多</a></div>
+                    </div>
+
+
+
+                    <ul class="text1">
+                        <li class="active2">精品栏目</li><span>|</span>
+                        <li>赛事精品</li><span>|</span>
+                        <li>英雄攻略</li>
+                    </ul>
+                    <div class="display-change">
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                        <li>荣耀大话王</li>
+                    </div>
+                    <!-- show展示区 -->
+                    <div class=" show-img">
+                        <div class="row">
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+
+
+                        </div>
+                        <div class="row">
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--  -->
+                <!-- 英雄/皮肤 -->
+                <div class="honner">
+                    <div>
+                        <div class="img3"></div>
+                        <h3>英雄/皮肤</h3>
+                        <div class="img5"><a href="">更多</a></div>
+                    </div>
+
+                    <ul class="text1">
+                        <li class="active2">最新英雄</li><span>|</span>
+                        <li>最新皮肤</li><span>|</span>
+                        <li>周免英雄</li>
+                    </ul>
+                    <div class="geya">
+
+                        <img src="./image/548.webp" alt="">
+                        <p class="hero1">新英雄：戈娅</p>
+                        <p class="hero2">上线时间：2022.06.23</p>
+                    </div>
+                    <!-- 桑启图 -->
+                    <div class="sangqi row">
+                        <div class="sq1 col-xs-3">
+                            <img src="	https://game.gtimg.cn/images/yxzj/img201606/freehero/vertical/534.jpg" alt="">
+                            <a href="">桑启</a>
+                        </div>
+                        <div class="sq1 col-xs-3">
+                            <img src="https://game.gtimg.cn/images/yxzj/img201606/freehero/vertical/542.jpg" alt="">
+                            <a href="">霏</a>
+                        </div>
+                        <div class="sq1 col-xs-3">
+                            <img src="https://game.gtimg.cn/images/yxzj/img201606/freehero/vertical/540.jpg" alt="">
+                            <a href="">金蝉子</a>
+                        </div>
+                        <div class="sq1 col-xs-3">
+                            <img src="	https://game.gtimg.cn/images/yxzj/img201606/freehero/vertical/538.jpg" alt="">
+                            <a href="">云樱</a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ------------------------------- -->
+                <!--内容中心  -->
+                <div class="center-text">
+                    <div>
+                        <div class="img2"></div>
+                        <h3>赛事中心</h3>
+                        <div class="img5"><a href="">更多</a></div>
+                    </div>
+
+
+
+                    <ul class="text1">
+                        <li class="active2">KPL</li><span>|</span>
+                        <li>挑战者杯</li><span>|</span>
+                        <li>K甲联赛</li><span>|</span>
+                        <li>全国大赛</li><span>|</span>
+                        <li>高校联赛</li><span>|</span>
+                        <li>TGA</li><span>|</span>
+                        <li>微信游戏邀请赛</li><span>|</span>
+                        <li></li>
+                    </ul>
+
+                    <!-- show展示区 -->
+                    <div class=" show-img">
+                        <!-- 逐浪新生 -->
+                        <div class="game">
+                            <ul class="KPLimg">
+                                1
+                            </ul>
+                            <ul class="KPL-list">
+                                <li>
+
+                                    <h3>鹏鹏宫本武藏双四杀斩获周最佳，新版本体系屡建奇功</h3>
+                                    <span>2022年KPL夏季赛常规赛第二轮仅剩两周，希望各家队伍尽快适应...</span>
+
+                                </li>
+                                <li>
+                                    <div class="KPL">KPL</div>
+                                    来最右，为KPL助威赢好礼
+                                    <div class="date22">
+                                        07-08
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="KPL">KPL</div>
+                                    今日预报|苏州KSG全省马赫来袭，深圳DYG能否抵御成功？
+                                    <div class="date22">
+                                        07-06
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="KPL">KPL</div>
+                                    KPL夏季赛第四周最佳阵容：成都AG.久诚斩获双料周最佳
+                                    <div class="date22">
+                                        07-05
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="KPL">KPL</div>
+                                    夏季赛快讯：武汉ES二轮首战告捷，坦然老夫子化身团战发动机
+                                    <div class="date22">
+                                        07-03
+                                    </div>
+                                </li>
+                                <li>
+                                        <div class="KPL">KPL</div>
+                                        夏季赛快讯：XYG击败深圳DYG，秀逗老夫子声东击西战术压制
+                                        <div class="date22">
+                                            07-03
+                                        </div>
+                                    </li>
+                                    <li>
+                                            <div class="KPL">KPL</div>
+                                            夏季赛快讯：南京Hero击败西安WE，紫幻沈梦溪持续火力压制
+                                            <div class="date22">
+                                                07-03
+                                            </div>
+                                        </li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+
+
+                        </div>
+                        <div class="row">
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-3">
+                                <img src="https://shp.qpic.cn/cfwebcap/0/743a9214e4243388c330eb1a3d30a450/0/?width=230&height=140" alt="">
+                                <p>2.8万<span class="date1">2022-06-20</span></p>
+                                <span class="date2">【一段香三分白】第49期:急！宫本学会了，阿通哪里领？！</span>
+                                <a href="">
+                                    <div> </div>
+                                </a>
+                            </li>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--  -->
+                <!-- KPL赛程 -->
+                <div class="honner">
+                    <div>
+                        <div class="img3"></div>
+                        <h3>KPL赛程</h3>
+                        <div class="img5"><a href="">更多</a></div>
+                    </div>
+
+                    <ul class="text1">
+                        <li >时间</li>
+                        
+                        <li>战队</li><li></li>
+                        <li>战队</li>
+                    </ul>
+                    <div class="vs">
+                        <div class="pers">
+                                <span>7-10 20:00</span> 
+                                <div class="person1">
+                                    <img src="./image/phpTZIft98263065261635408342.png" alt="">
+                                    <div>重庆狼队</div>
+                                </div>
+                                
+                                <div class="person2"><b> VS</b></div>
+                                <div class="person1">
+                                        <img src="./image/phpTZIft98263065261635408342.png" alt="">
+                                        <div>武汉ES</div>
+                                    </div>
+                        </div> <br>
+                        <div class="pers">
+                                <span>7-13 17:00</span> 
+                                <div class="person1">
+                                    <img src="./image/phpTZIft98263065261635408342.png" alt="">
+                                    <div>重庆狼队</div>
+                                </div>
+                                
+                                <div class="person2"><b> VS</b></div>
+                                <div class="person1">
+                                        <img src="./image/phpTZIft98263065261635408342.png" alt="">
+                                        <div>武汉ES</div>
+                                    </div>
+                        </div> 
+                    </div>
+                    
+                    <div >
+
+                        <img src="https://game.gtimg.cn/images/yxzj/web201706/images/index/match_schedule.jpg" alt="">
+                        
+                    </div>
+                    
+                </div>
+                <!-- ------------------------------- -->
+              
+            </div>
+              <!-- 底部 -->
+              <div class="footer">
+                  <div class="over">
+                      <div class="over-header">
+
+                      </div>
+                      <hr>
+                      <!-- 底部文字 -->
+                      <div class="word">
+                          <div class="word-left">
+                              <p>
+                                  <span>抵制不良游戏</span>
+                                  <span>拒绝盗版游戏</span>
+                                  <span>注意自我保护</span>
+                                  <span>谨防受骗上当</span>
+                                  <span>适度游戏益脑</span>
+                                  <span>沉迷游戏伤身</span>
+                                  <span>合理安排时间</span>
+                                  <span>享受健康生活</span>
+                              </p>
+                              <p>
+                                  《王者荣耀》全部背景故事发生于架空世界“王者大陆”中。相关人物、地理、事件均为艺术创作，并非正史。若因观看王者故事对相关历史人物产生兴趣，建议查阅正史记载。
+
+                              </p>
+                          </div>
+                          <div class="word-right">
+                             <p>
+                                    <a href="">腾讯互动娱乐</a>&nbsp;|
+                                    <a href="">服务条款</a>&nbsp;|
+                                    <a href="">王者荣耀隐私保护指引</a>&nbsp;|
+                                    <a href="">儿童隐私保护指引</a>&nbsp;|
+                                    <a href="">腾讯游戏招聘</a>&nbsp;|
+                                    <a href="">腾讯游戏客服</a>&nbsp;|
+                                    <a href="">游戏列表</a>&nbsp;|
+                                    <a href="">广告服务及商务合作</a>
+                             </p>
+                             <p>
+                                 <a href="">COPYRIGHT © 1998 - 2022 TENCENT. ALL RIGHTS RESERVED.</a>
+                                 <a href="">腾讯公司版权所有</a>
+                                 <a href=""> 网络游戏行业防沉迷自律公约</a>
+                                 <a href="">工商网监电子标识</a> &nbsp;|
+                                 <a href="">工商网监电子标识 </a>&nbsp;|
+                                 <a href="">粤网文[2020]3396-195号</a>&nbsp;|
+                                 <a href="">（署）网出证（粤）字第054号</a>
+                             </p>
+                             <p>
+                                 <a href="">文网游备字[2016]M-CSG 0059 号</a>
+                                 <a href="">新广出审[2017] 6712号</a>|
+                                 <a href="">ISBN 978-7-7979-8408-9</a>|
+                                 <a href=""></a>
+                                 <a href=""></a>
+                                 <a href=""></a>
+                                 <a href=""></a>
+                             </p>
+                             <p>
+                                    全国文化市场统一举报电话：12318
+                             </p>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+
+
+
+
+
+        <!-- 右侧悬浮的二维码 -->
+        <div class="r_nav">
+            <div class="r_dj">
+                <p>情不知所起</p>
+                <p>一往而深</p>
+            </div>
+            <div class="linkme">
+                <img src="./image/ewm.png" alt="">
+                <b>扫码联系我</b>
+            </div>
+            <ul class="flex-down">
+                <li>王者营地</li>
+                <li>官方微博</li>
+                <li>微信公众号</li>
+                <li>官方视频号</li>
+                <div>
+                    <img src="./image/ewm.png" alt="">
+                    <p>扫码 <span>下载游戏，</span> &nbsp; 每天<span>领取福利好礼!</span></p>
+                </div>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+<script>
+
+</script>
+    <script src="./js/index.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
